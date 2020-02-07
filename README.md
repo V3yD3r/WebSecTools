@@ -1,11 +1,11 @@
-# BBHT
+# WebSecTools
 
 Bug Bounty Hunting Tools is a script to install the most popular tools used while looking for vulnerabilities for a bug bounty program.
  
 # Tools
 
-- ZAP
-- Burpsuite Community
+- ZAP*
+- Burpsuite Community*
 - Nmap
 - Amass
 - w3af
@@ -42,13 +42,9 @@ Bug Bounty Hunting Tools is a script to install the most popular tools used whil
 - fuzzdb payloads
 - xsuperbug's payloads
 - swisskyrepo's payloads
+**you will need to uncomment code block for installing ZAP &|| Burp**
 
-This script also grabs the aliases created and published here:
-https://github.com/nahamsec/recon_profile
-
-Thanks to https://github.com/nahamsec
-
-# Installing
-- cd bbht
+installing;
+- cd WebSecTools
 - chmod +x install.sh
 - ./install.sh
