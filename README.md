@@ -37,6 +37,7 @@ Bug Bounty Hunting Tools is a script to install the most popular tools used whil
 - Unfurl
 - Waybackurls
 - Httprobe
+- CeWL
 - Seclists collection
 - foospidy's payloads
 - fuzzdb payloads
