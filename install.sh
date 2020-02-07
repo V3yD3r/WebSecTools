@@ -93,9 +93,16 @@ cd ~/tools/
 
 ##------------------------------------------------####------------------------------------------------##
 ####recon tools####
+
 echo -e "\e[38;5;82mInstalling.. \e[38;5;198mfx-recon\e[0m"
 cd ~/tools/
 git clone https://github.com/V3yD3r/fx-recon.git
+echo -e "\e[96mdone\e[0m"
+
+
+echo -e "\e[38;5;82mInstalling.. \e[38;5;198mSmeegeScrape\e[0m"
+cd ~/tools/
+git clone https://github.com/SmeegeSec/SmeegeScrape.git
 echo -e "\e[96mdone\e[0m"
 
 
@@ -248,6 +255,7 @@ echo -e "\e[96mdone\e[0m"
 
 ##------------------------------------------------####------------------------------------------------##
 ####webtesting tools####
+
 echo -e "\e[38;5;82mInstalling.. \e[38;5;198msqlmap\e[0m"
 git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
 cd ~/tools/
@@ -301,6 +309,7 @@ echo -e "\e[96mdone\e[0m"
 
 ##------------------------------------------------####------------------------------------------------##
 ####payloads and wordlists####
+
 echo -e "\e[38;5;82mInstalling.. \e[38;5;198mfoospidy's payloads\e[0m"
 git clone https://github.com/foospidy/payloads.git
 echo -e "\e[96mdone\e[0m"
