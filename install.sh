@@ -42,12 +42,12 @@ mkdir ~/tools
 cd ~/tools/
 
 ##------------------------------------------------####------------------------------------------------##
-## uncomment this section to download and create start scripts in tools folder for ZAP and Burp##
+## uncomment this section to download ZAP and Burp.. plus create start scripts in tools folder##
 ## this script installs all tools within ~/tools
-##------------------------------------------------####------------------------------------------------##
+
 #echo -e "\e[38;5;82mInstalling.. \e[38;5;198mZAP\e[0m"
 #mkdir ~/tools/zaproxy
-## Download zap
+## Download zap---------------------------------------------------------------------------------------## ZAP
 #rm ZAP_2.9.0_Crossplatform.zip
 #wget 'https://github.com/zaproxy/zaproxy/releases/download/v2.9.0/ZAP_2.9.0_Crossplatform.zip'
 ##
@@ -60,7 +60,8 @@ cd ~/tools/
 #chmod +x ~/tools/ZAP.sh
 #echo -e "\e[96mdone\e[0m"
 
-## Download and install Burp
+
+## Download burp---------------------------------------------------------------------------------------## Burp
 #echo -e "\e[95mdownloading Burp Suite Community Edition v2.1.07\e[0m"
 #mkdir ~/tools/BurpSuite
 ## Download burp
@@ -73,21 +74,24 @@ cd ~/tools/
 #chmod +x ~/tools/Burp.sh
 #echo -e "\e[96mdone\e[0m"
 
-#install aquatone
+
+##------------------------------------------------####------------------------------------------------##
+
+
+
+#install aquatone ------not working--------
 #echo -e "\e[38;5;82mInstalling.. \e[38;5;198mAquatone\e[0m"
 #go get github.com/michenriksen/aquatone
 #echo -e "\e[96mdone\e[0m"
 
-#install chromium
+#install chromium------not working--------
 #echo -e "\e[38;5;82mInstalling.. \e[38;5;198mChromium\e[0m"
 #sudo snap install chromium
 #echo -e "\e[96mdone\e[0m"
 
+
+
 ##------------------------------------------------####------------------------------------------------##
-##------------------------------------------------####------------------------------------------------##
-
-
-
 ####recon tools####
 echo -e "\e[38;5;82mInstalling.. \e[38;5;198mfx-recon\e[0m"
 cd ~/tools/
@@ -242,7 +246,7 @@ git clone https://github.com/nahamsec/lazyrecon.git
 echo -e "\e[96mdone\e[0m"
 
 
-
+##------------------------------------------------####------------------------------------------------##
 ####webtesting tools####
 echo -e "\e[38;5;82mInstalling.. \e[38;5;198msqlmap\e[0m"
 git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
@@ -295,7 +299,7 @@ git clone https://github.com/epsylon/xsser.git
 echo -e "\e[96mdone\e[0m"
 
 
-
+##------------------------------------------------####------------------------------------------------##
 ####payloads and wordlists####
 echo -e "\e[38;5;82mInstalling.. \e[38;5;198mfoospidy's payloads\e[0m"
 git clone https://github.com/foospidy/payloads.git
@@ -334,7 +338,7 @@ git clone https://github.com/V3yD3r/big-list-of-naughty-strings.git
 echo -e "\e[96mdone\e[0m"
 
 
-
+##------------------------------------------------####------------------------------------------------##
 ##done##
 clear
 echo -e "\e[38;5;198m\n\n\n\n\n\n\n\n\n\n\nDone! All tools are set up in ~/tools\e[0m"
