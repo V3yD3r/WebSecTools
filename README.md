@@ -42,6 +42,7 @@ Bug Bounty Hunting Tools is a script to install the most popular tools used whil
 - fuzzdb payloads
 - xsuperbug's payloads
 - swisskyrepo's payloads
+- SmeegeScrape
 
 **you will need to uncomment code block for installing ZAP &|| Burp**
 
