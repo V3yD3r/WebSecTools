@@ -100,9 +100,9 @@ git clone https://github.com/V3yD3r/fx-recon.git
 echo -e "\e[96mdone\e[0m"
 
 
-echo -e "\e[38;5;82mInstalling.. \e[38;5;198mSmeegeScrape\e[0m"
+echo -e "\e[38;5;82mInstalling.. \e[38;5;198mCeWL\e[0m"
 cd ~/tools/
-git clone https://github.com/SmeegeSec/SmeegeScrape.git
+git clone https://github.com/digininja/CeWL.git
 echo -e "\e[96mdone\e[0m"
 
 
