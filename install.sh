@@ -22,6 +22,7 @@ sudo apt-get install -y python3-pip
 sudo apt-get install -y python-pip
 sudo apt-get install -y python-dnspython
 sudo apt-get install -y git
+sudo apt-get install -y cewl
 sudo apt-get install -y rename
 sudo apt-get install -y xargs
 sudo apt-get install -y unzip
@@ -97,12 +98,6 @@ cd ~/tools/
 echo -e "\e[38;5;82mInstalling.. \e[38;5;198mfx-recon\e[0m"
 cd ~/tools/
 git clone https://github.com/V3yD3r/fx-recon.git
-echo -e "\e[96mdone\e[0m"
-
-
-echo -e "\e[38;5;82mInstalling.. \e[38;5;198mCeWL\e[0m"
-cd ~/tools/
-git clone https://github.com/digininja/CeWL.git
 echo -e "\e[96mdone\e[0m"
 
 
